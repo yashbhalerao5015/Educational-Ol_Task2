@@ -1,0 +1,388 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.n-l {
+  filter: brightness(0) invert(1);
+}
+
+.navo {
+  background-image: url("navbar_bd.jpeg") !important;
+  height: 700px !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.space {
+  margin-left: 10px;
+}
+
+.Ubuntu {
+  font-family: "Ubuntu";
+  font-size: 1.4rem !important;
+  font-weight: bold;
+}
+
+.size {
+  font-size: 1.1rem !important;
+  font-family: inherit;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white !important;
+}
+
+.form-control {
+  border-radius: 5px !important;
+}
+
+@media (max-width:1028px) {
+  .navbar-brand {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .space-up {
+    padding-top: 10px !important;
+  }
+
+  .home-heading {
+    width: 35%;
+    height: 30%;
+    position: absolute;
+    top: 8rem !important;
+    left: 10rem !important;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .light-heading {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 1.3rem !important;
+    color: #687980;
+  }
+
+  input[type=search] {
+    width: 200px !important;
+  }
+
+  .card-1a {
+    margin-left: 9rem !important;
+    margin-top: 2rem;
+  }
+
+  .feature-box {
+    height: 1100px !important;
+    width: 96%;
+    margin: auto 1rem;
+  }
+  .courses{
+    height:1300px !important;
+  }
+  .card-3 {
+    margin-top: 3rem !important;
+  }
+  .card-cs{
+    margin: 5rem !important;
+  }
+  .text-icon{
+    margin-right: 2.5rem !important;
+  }
+  .icon-test{
+   margin-left: 12rem !important;
+   color:#476072;
+   padding-bottom: 2rem;
+  }
+  .footer{
+    height: 350px !important;
+    width: 97%;
+    background-color: #E6E6E6;
+    margin: auto;
+  }
+  .signup-img{
+    position: absolute;
+    top:8rem;
+    left: 3rem !important;
+    width: 400px;
+  }
+  .signup-form {
+    display: inline-block;
+  	width: 400px;
+  	margin-left:32rem !important;
+    margin-top: 4rem;
+  }
+  .login-form{
+    margin-left:30rem !important;
+    margin-top: 7rem !important;
+  }
+
+}
+.login-form{
+  margin-left:35rem !important;
+  margin-top: 7rem !important;
+}
+.home-heading {
+  width: 35%;
+  height: 30%;
+  position: absolute;
+  top: 11rem;
+  left: 8rem !important;
+  text-align: left;
+  padding: 1rem !important;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light-heading {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-size: 1.3rem !important;
+  color: #EEEEEE;
+}
+
+.s-down {
+  margin-bottom: 1rem !important;
+}
+
+.feature-box {
+  height: 700px;
+  width:95%;
+  margin: auto 1rem;
+}
+
+.fb-h {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 4rem;
+}
+
+.fb-p {
+  padding-top: 6rem;
+  font-size: 1.2rem !important;
+}
+
+.card-1 {
+  margin-left: 5.5rem !important;
+  margin-top: 1rem;
+}
+
+.transorm {
+  transform: rotate(180deg);
+  transition-duration: 2s;
+}
+
+.re-transorm {
+  transform: rotate(0);
+  transition-duration: 2s;
+}
+
+.first:hover {
+  transform: rotate(180deg);
+  transition-duration: 2s;
+}
+
+.courses {
+  height: 600px;
+  width: 97%;
+
+}
+
+.course-hr {
+  border-width: thin;
+  border-color: #000;
+  width:96%;
+}
+.course-heading{
+  display: inline-block;
+  margin-left: 2.2rem;
+  background-color:#EEEEEE;
+  padding: 1rem;
+}
+
+.card-text1{
+  margin-left: 9rem;
+  text-align: right !important;
+  background-color:#80c904;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+}
+.card-text2{
+  margin-left: 7rem;
+  text-align: right !important;
+  background-color:#ffe388;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 13px;
+  color:#000;
+}
+.buy{
+  margin-left: 5rem;
+
+}
+.card-cs{
+  margin: 2rem;
+}
+.hr-card{
+  width: 100%;
+  height: 500px;
+}
+.fe-card{
+  margin: 2.1rem;
+  padding: 2rem;
+}
+.hr-img{
+  width: 100%;
+}
+.testimonals{
+  width: 100%;
+  height: 300px;
+}
+.text-icon{
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: 2.5rem;
+}
+.t-text{
+
+  margin-left: 0.5rem !important;
+  padding: 0 2.5rem ;
+  font-family:"Ubuntu";
+  font-weight: bold;
+}
+.icon-test{
+ margin-left: 17rem;
+ color:#476072;
+}
+.footer{
+  height: 250px;
+  width: 97%;
+  background-color: #E6E6E6;
+  margin: auto;
+}
+.row{
+  padding: 1rem;
+}
+.ftr-text{
+  display: inline-block;
+}
+.log{
+  background-image: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBsYXB0b3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container{
+background-color:#54567A;
+  height:280px;
+  width:320px !important;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 2rem;
+  color:white;
+  position: absolute;
+  top: 8rem;
+  left: 8rem;
+}
+.form-text{
+  color: white;
+}
+.signup{
+  background-color: #3598dc;
+}
+.signup-img{
+  position: absolute;
+  top:8rem;
+  left: 5rem;
+}
+.login1{
+  background-color:#ADD8E6;
+}
+.login1-img{
+  position: absolute;
+}
+
+
+.form-control {
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+}
+.form-control:focus {
+	background: #e2e2e2;
+}
+.form-control, .btn {
+	border-radius: 3px;
+}
+.signup-form {
+  display: inline-block;
+	width: 400px;
+	margin-left:50rem;
+  margin-top: 4rem;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2  {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr  {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}
+.signup-form .btn {
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #2389cd !important;
+	outline: none;
+}
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+.signup-form .hint-text  {
+	padding-bottom: 15px;
+	text-align: center;
+}
